@@ -1,0 +1,29 @@
+* {
+    /*width: 80% auto;*/
+    margin: 0 auto;
+    text-align: center;
+    color: black;
+    background-color: pink;
+    padding: .2em;
+}
+.white {
+    color: white;
+}
+img {
+    width: 40%;
+}
+main, footer {
+    width: 40%;
+}
+div li {
+    text-align: left;
+    list-style-type: numeric;
+    font-size: .8em;
+    font-weight: bold;
+}
+#bold {
+    font-weight: bold;
+}
+.small {
+    font-size: .8em;
+}
