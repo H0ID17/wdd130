@@ -1,3 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Boogaloo&family=Inter:wght@300&display=swap');
+
+* {
+    font-family: Inter, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+.home-title, .msg h2 {
+    font-family: Boogaloo;
+    font-size: 2em;
+}
+
+.book{
+    font-size: 18px;
+}
+
+.msg p {
+    font-size: .8em;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
 #content {
     max-width: 1600px;
     /*div is a block element so to center we need margin 0 auto
@@ -31,4 +56,77 @@ nav a:hover, .book:hover, .join:hover {
 }
 footer a {
     text-decoration: none;
+}
+
+.msg {
+    background-color: #6f7364;
+    line-height: 1.5em;
+}
+
+body {
+    background-color: #fcfbfb;
+    font-family: Raleway, Arial, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+nav a {
+    padding: 35px;
+}
+
+.book, .join {
+    padding: 15px 30px;
+}
+
+.icon {
+    padding-top: 10px;
+}
+
+.msg {
+    padding: 35px;
+}
+
+.msg p {
+    padding-bottom: 15px;
+}
+
+footer {
+    padding: 25px 50px;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.home-title {
+    margin-top: 10px;
+}
+
+.book, .join {
+    margin-top: 50px;
+    border-radius: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+footer {
+    margin-top: 200px;
+}
+
+.card-img {
+    border: 10px;
+}
+
+main section img {
+    box-sizing: border-box;
 }
